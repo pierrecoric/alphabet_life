@@ -1,0 +1,91 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sliders {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    accent-color: rgb(255, 200, 0);
+    font-family: sans-serif;
+    position: absolute;
+    display: none;
+}
+
+.sliderClass {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#instructions {
+    font-family: 12pt;
+    line-height: 15pt;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#left {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right {
+    margin: 15px;
+}
+
+#textLeft {
+    font-size: 13pt;
+}
+
+#credits {
+    font-size: 9pt;
+    line-height: 6pt;
+}
+
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #FFFFFF;
+}
+
+td {
+    background-color: #FFFFFF;
+
+}
+
+.voiceCommand {
+    font-weight: bold;
+
+}
